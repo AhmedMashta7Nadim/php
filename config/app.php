@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\ServiceProvider;
-
+use App\Http\Middleware;
 return [
 
     /*
@@ -84,6 +84,7 @@ return [
     */
 
     'locale' => 'en',
+    
 
     /*
     |--------------------------------------------------------------------------
